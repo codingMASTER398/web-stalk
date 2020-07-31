@@ -3,7 +3,10 @@
 
  ___
 
- [video demo](https://cdn.discordapp.com/attachments/726749443809869824/738806091735105566/web_stalk_demo.mp4)
+ Video Demo:
+ <a href="http://www.youtube.com/watch?feature=player_embedded&v=Yxm64rZZ8vU
+" target="_blank"><img src="http://img.youtube.com/vi/Yxm64rZZ8vU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
  ___
  usage:
