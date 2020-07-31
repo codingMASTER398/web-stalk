@@ -74,18 +74,19 @@ setTimeout(() => {
                             a()
                             console.log(wsHeadshotUrl)
                         })
-                        
+
                 })
         } else {
             wsHeadshotUrl = webStalk.url.replace('wsIdHERE', wsUser)
             fetch(wsHeadshotUrl)
-                        .then(function(resp) {
-                            wsHeadshotUrl = resp['url'];
-                            a()
-                        })
+                .then(function(resp) {
+                    wsHeadshotUrl = resp['url'];
+                    a()
+                })
         }
-        function a(){
-            if(webStalk.cancelled && !webStalk.active) {
+
+        function a() {
+            if (webStalk.cancelled && !webStalk.active) {
                 webStalk.cancelled = false;
                 return webStalk.active = false;
             }
@@ -115,7 +116,7 @@ setTimeout(() => {
                                     webStalk.active = false
                                     return true;
                                 }
-                                    wsStartButton.innerText = 'complete.';
+                                wsStartButton.innerText = 'complete.';
                                 setTimeout(function() {
                                     wsStartButton.innerText = 'start'
                                 }, 5000);
@@ -126,8 +127,10 @@ setTimeout(() => {
                         }
                     }
                     a()
-                });}}
-            
+                });
+        }
+    }
+
 
 
     if (Number(window.location.pathname.split('/')[2])) {
