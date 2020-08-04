@@ -15,5 +15,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 1. open developer tools (ctrl+shift+i)
 2. go to console
 3. ignore pasting message put by roblox
-4. paste code from [here](https://raw.githubusercontent.com/lolwhenlifegivesyoulemons/web-stalk/master/web%20stalk.js)
+4. paste code from [here](https://raw.githubusercontent.com/lolwhenlifegivesyoulemons/web-stalk/master/web%20stalk.js) (NOTE: use [this](https://raw.githubusercontent.com/lolwhenlifegivesyoulemons/web-stalk/master/web%20stalk-svgStrip.js) for low-end devices.)
 5. profit
