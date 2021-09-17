@@ -1,5 +1,8 @@
 # web-stalk
  a unnecessary big file because of svgs, also a roblox stream sniper
+ 
+ Patched for web.roblox.com users by codingMASTER398
+ Works as of 17/09/2021
 
  ___
 
