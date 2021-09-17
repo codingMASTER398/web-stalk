@@ -39,7 +39,7 @@ setTimeout(() => {
     dragElement(document.getElementById(("wsDiv")));
     var webStalk = new Object()
     webStalk.active = false;
-    webStalk.url = "https://www.roblox.com/headshot-thumbnail/image?userId=wsIdHERE&width=48&height=48";
+    webStalk.url = "https://web.roblox.com/headshot-thumbnail/image?userId=wsIdHERE&width=48&height=48";
     webStalk.cancelled = false;
     var wsStartButton = document.getElementById('wsStartButton');
 
@@ -90,7 +90,7 @@ setTimeout(() => {
                 webStalk.cancelled = false;
                 return webStalk.active = false;
             }
-            fetch(`https://www.roblox.com/games/getgameinstancesjson?placeId=${wsPlaceId}&startindex=${wsPage}`)
+            fetch(`https://web.roblox.com/games/getgameinstancesjson?placeId=${wsPlaceId}&startindex=${wsPage}&_=1631873195372`)
                 .then((resp) => resp.json())
                 .then((data) => {
                     wsPage += 10;
